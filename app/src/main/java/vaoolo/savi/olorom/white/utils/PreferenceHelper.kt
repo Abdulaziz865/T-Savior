@@ -2,6 +2,7 @@ package vaoolo.savi.olorom.white.utils
 
 import android.content.Context
 import android.content.SharedPreferences
+import android.graphics.Color
 
 object PreferenceHelper {
 
@@ -18,6 +19,6 @@ object PreferenceHelper {
         set(value) = preferences.edit().putBoolean("start", value).apply()
 
     var isColorPicker: Int
-        get() = preferencesColor.getInt("color", 0xD86868)
+        get() = preferencesColor.getInt("color", Color.WHITE)
         set(value) = preferencesColor.edit().putInt("color", value).apply()
 }

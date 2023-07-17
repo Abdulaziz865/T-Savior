@@ -75,6 +75,7 @@
                 android:fontFamily="@font/rubik_bold"
                 android:paddingStart="30dp"
                 android:paddingEnd="30dp"
+                android:textColor="@color/white"
                 android:text="@string/start"
                 android:textAllCaps="false"
                 app:cornerRadius="10dp" />
